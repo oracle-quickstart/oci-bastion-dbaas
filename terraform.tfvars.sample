@@ -1,0 +1,32 @@
+#Copyright © 2020, Oracle and/or its affiliates.
+#The Universal Permissive License (UPL), Version 1.0
+
+# CIDR block of Primary VCN to be created
+vcn_cidr_block = "<vcn-cidr"
+
+# DNS label of VCN to be created
+vcn_dns_label = "<vcn-dns-lablel>"
+
+# Compute shape for bastion server
+bastion_server_shape = "<bastion-server-shape>"
+
+# Database System display name
+db_system_display_name = "<primary-database-system-display-name>"
+
+# Database name
+db_name = "<primary-database-name>"
+
+# Compute shape for Database server
+db_system_shape = "<shape-of-db-compute>"
+
+# DB admin password for database
+db_admin_password = "<database-admin-password>"
+
+# path to public ssh key to set as the authorized key on the bastion host
+ssh_public_key_file  = "<path-to-ssh-public-key-file>"
+
+# path to private ssh key to access the bastion host
+ssh_private_key_file = "<path-to-ssh-private-key-file>"
+
+
+
