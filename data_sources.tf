@@ -12,12 +12,12 @@ data oci_core_images oraclelinux {
   compartment_id = var.compartment_ocid
 
   operating_system         = "Oracle Linux"
-  operating_system_version = "7.8"
+  operating_system_version = "7.9"
 
   # exclude GPU specific images
   filter {
     name   = "display_name"
-    values = ["^Oracle-Linux-7.8-([\\.0-9]+)-([\\.0-9-]+)$"]
+    values = ["^Oracle-Linux-7.9-([\\.0-9]+)-([\\.0-9-]+)$"]
     regex  = true
   }
 }
